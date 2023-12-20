@@ -39,4 +39,34 @@
     height: 480px;
     background-color: grey;
     margin-top: 43px;
+    display: flex;
+    align-items: center;
+    
 }
+
+.fleche {
+    position: absolute;
+    cursor: pointer;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#gauche {
+    left:0;
+    opacity: 0.4;
+    transform: rotate(180deg);
+}
+#droite {
+    right:0;
+    opacity: 0.4;
+    transform: rotate(0deg);
+}
+
+#gauche:hover {
+    transform: rotate(180deg);
+    opacity: 1;
+}
+#droite:hover {
+    opacity: 1;
+}
+

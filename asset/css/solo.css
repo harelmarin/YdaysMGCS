@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #222222;
+}
+
+header {
+    width: 100%;
+    height: 160px;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headernav {
+    margin-left: 80px;
+}
+.headerli {
+    display:inline-block;
+    list-style-type: none;
+}
+.headera {
+    text-decoration: none;
+    color: #F2F4FF;
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 24px;
+}
+
+.headerlogo {
+    width: 200px;
+    height: 88px;
+    border-radius: 90px;
+    background: #F2F4FF;    
+    margin-right: 80px;
+}
+
+.conteneur {
+    display: flex;
+    flex-direction: row;
+    background-color: #222222;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    justify-content: center;
+}
+
+a{
+    background-color: #222222;
+}
+
+.fleche{
+    margin-top: 180px;
+    width: 3%;
+}
+
+.nom{
+    color: #F6F9ED;
+    font-family: "Integral CF";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.surnom{
+    color: #F6F9ED;
+    font-family: Paralucent-Medium;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.descriptif{
+    width: 654px;
+    height: 144px;
+    flex-shrink: 0;
+    color: #626262;
+    font-family: Paralucent-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 276px;
+    flex-shrink: 0;
+    background: #222;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-color: rgba(242, 244, 255, 0.60);
+}
+
+.footera{
+    text-decoration: none;
+    color: rgba(242, 244, 255, 0.60);
+    padding-left: 30px;
+    display: flex;
+}
+
+.logoreseaux {
+    width: 38px;
+    height: 38px;
+}
+
+.MGCS {
+    display: inline;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-right: 2px solid rgba(242, 244, 255, 0.60);
+    width: 215.55px;
+}
+
+
+.equipe {
+    display: flex;
+    width: 111px;
+    height: 26px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.services {
+    display: flex;
+    width: 111px;
+    height: 26px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.contacts {
+    display: flex;
+    width: 78px;
+    height: 26px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.Mail {
+    color: rgba(242, 244, 255, 0.60)
+}
+
+.Rubriques {
+    display: flex;
+}
+
+
+
+
+

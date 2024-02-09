@@ -47,6 +47,7 @@ header {
     flex-shrink: 0;
     border-radius: 10px;
     background: #626262;
+    margin-bottom: 20px;
     
 }
 
@@ -78,23 +79,25 @@ section{
 .fondateurs {
     font-family: 'Poppins', sans-serif;
     color: #F2F4FF;
-    font-family: Poppins;
+    font-family: "Integral CF";
     font-size: 64px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-left: 76px;
+    margin-top: 86px;
+    margin-bottom: 48px;
+
 }
 
 p{
-    color: #F2F4FF;
+    color: #F6F9ED;
     text-align: center;
-    font-family: Poppins;
+    font-family: Paralucent-Medium;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 30px;
-    margin-bottom: 84px;
 }
 
 footer {

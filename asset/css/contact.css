@@ -1,0 +1,71 @@
+.rectangle-contact-global {
+    background-color: #222222;
+    color: #F6F9ED;
+    display: flex;
+}
+
+.first-rectangle {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.first-rectangle h1 {
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.first-rectangle h3 {
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 20px;
+    font-family: Poppins;
+}
+
+.second-rectangle h2 {
+   font-weight: 800;
+   font-size: 40px;
+   text-align: center;
+}
+
+.first-rectangle h4 {
+    font-weight: 400;
+    font-size: 17px;
+    color: #626262;
+}
+
+.second-rectangle {
+    padding: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: none; 
+    border-bottom: 1px solid #fff;
+    background-color: transparent; 
+    color: #fff; 
+    padding: 5px 0;
+    margin-bottom: 10px; 
+    font-size: 16px; 
+    outline: none;
+}
+
+form {
+    margin-top: 25px;
+}
+
+form input {
+    margin-left: 5px;
+}
+
+input[type="submit"] {
+    background-color: #F6F9ED;
+    color: #241C1D;
+    width: 320px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 22px;
+    cursor: pointer;
+}

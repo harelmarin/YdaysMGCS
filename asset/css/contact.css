@@ -1,5 +1,5 @@
 .rectangle-contact-global {
-    background-color: #241C1D;
+    background-color: #222222;
     color: #F6F9ED;
     display: flex;
 }
@@ -20,6 +20,7 @@
     font-weight: 500;
     font-size: 22px;
     margin-top: 20px;
+    font-family: Poppins;
 }
 
 .second-rectangle h2 {

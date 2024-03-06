@@ -27,8 +27,12 @@
     display: flex;
 }
 
+.polesdiffrectangle a {
+    text-decoration: none;
+}
+
 .polespodcast {
-    background-color: #464646;
+    background: #F6B2B7;
     width: 30%;
     height: 445px;
     color: #F2F4FF;
@@ -36,7 +40,7 @@
     font-weight: 400;
 }
 .polescourt {
-    background-color: #606060;
+    background: #F7A941;
     width: 40%;
     height: 445px;
     color: #F2F4FF;
@@ -44,7 +48,7 @@
     font-weight: 400;
 }
 .polesclip {
-    background-color: #959595;
+    background: #E5271E;
     width: 30%;
     height: 445px;
     color: #F2F4FF;

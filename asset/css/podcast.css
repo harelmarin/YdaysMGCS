@@ -41,3 +41,15 @@
     flex-direction: column;
     margin-bottom: 35px;
 }
+
+.image-wrapper img.hover {
+    display: none;
+}
+
+.image-wrapper:hover img.normal {
+    display: none;
+}
+
+.image-wrapper:hover img.hover {
+    display: inline;
+}

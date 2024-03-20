@@ -69,3 +69,15 @@ input[type="submit"] {
     font-size: 22px;
     cursor: pointer;
 }
+
+.image-wrapper img.hover {
+    display: none;
+}
+
+.image-wrapper:hover img.normal {
+    display: none;
+}
+
+.image-wrapper:hover img.hover {
+    display: inline;
+}

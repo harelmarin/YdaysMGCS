@@ -56,9 +56,15 @@ a{
     background-color: rgba(36, 28, 29, 1);
 }
 
-.fleche{
+.fleche {
     margin-top: 180px;
+    margin-left: 20px;
+    margin-right: 35px;
     width: 3%;
+}
+
+.flecheretour {
+    margin-left: 20px;
 }
 
 .nom{

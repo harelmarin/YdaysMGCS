@@ -1,7 +1,7 @@
 .polesrectangle {
     width: 100%;
     height: 861px;
-    background-color: #222;
+    background-color: #241C1D;
     font-family: Poppins;
 }
 
@@ -28,6 +28,9 @@
 }
 
 .polesdiffrectangle a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
 }
 

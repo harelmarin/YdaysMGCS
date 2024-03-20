@@ -11,15 +11,7 @@
     <title> Accueil </title>
 </head>
 <body>
-    <header class="header"> 
-        <nav>
-           <a href="/poles">NOS POLES</a>
-           <a href="/equipe">NOTRE EQUIPE</a>
-           <a href="/index"> <img src="/static/img/Logo MGCS.png">  </a>
-           <a href="/services"> NOS SERVICES</a>
-           <a href="/contact"> CONTACTS</a>
-        </nav>
-    </header>
+    {{template "header.html" .}}
 <section>
 <div class="conteneurequipe1">
     <div class="fondateurs">
@@ -47,21 +39,5 @@
 
 </section>
 
-<footer class="footer">
-    <div class="footer-container">
-     <a href="/index"> <img src="/static/img/Logo MGCS.png">  </a>
-     <div class="footer-nav">
-         <nav>
-     <a href="/equipe">NOTRE EQUIPE</a>
-     <a href="/services"> NOS SERVICES</a>
-     <a href="/contact"> CONTACTS</a>
-     </nav>
-     <nav>
-     <p>MGCS.CORPO@GMAIL.COM</p>
-     <img src="/static/img/Logo Facebook.png">
-     <img src="/static/img/Logo_Instagram.png">
- </nav>
-     </div>
- </div>
- </footer>
+{{template "footer.html" .}}
 {{end}}

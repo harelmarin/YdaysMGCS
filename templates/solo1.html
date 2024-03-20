@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/static/css/solo.css" />
     <link rel="stylesheet" href="/static/css/header.css" />
     <link rel="stylesheet" href="/static/css/footer.css" />
+ 
     <title> Accueil </title>
 </head>
 <body>
@@ -20,12 +21,12 @@
            <a href="/contact"> CONTACTS</a>
         </nav>
     </header>
-<a href="/equipe">    
-    <div class="image-wrapper">
-    <img class="normal" src="/static/img/fleche.png">
-    <img class="hover" src="/static/img/fleche-rouge.png">
-</div>
-</a>
+    <a href="/equipe">    
+        <div class="image-wrapper">
+        <img class="normal" src="/static/img/fleche.png">
+        <img class="hover" src="/static/img/fleche-rouge.png">
+    </div>
+    </a>
 <div class="conteneur">
     <a class="fleche" href="/solo5">    
         <div class="image-wrapper">
@@ -47,23 +48,7 @@
     </a>
 </div>
 
-<footer class="footer">
-    <div class="footer-container">
-     <a href="/index"> <img src="/static/img/Logo MGCS.png">  </a>
-     <div class="footer-nav">
-         <nav>
-     <a href="/equipe">NOTRE EQUIPE</a>
-     <a href="/services"> NOS SERVICES</a>
-     <a href="/contact"> CONTACTS</a>
-     </nav>
-     <nav>
-     <p>MGCS.CORPO@GMAIL.COM</p>
-     <img src="/static/img/Logo Facebook.png">
-     <img src="/static/img/Logo_Instagram.png">
- </nav>
-     </div>
- </div>
- </footer>
+{{template "footer.html" .}}
 </body>
 </html>
 {{end}}

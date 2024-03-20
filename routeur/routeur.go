@@ -21,6 +21,7 @@ func Serveur() {
 	http.HandleFunc("/solo3", controller.Solo3Handler)
 	http.HandleFunc("/solo4", controller.Solo4Handler)
 	http.HandleFunc("/solo5", controller.Solo5Handler)
+	http.HandleFunc("/treatmentmail", controller.TreatmentMailHandler)
 
 	rootDoc, _ := os.Getwd()
 	fileserver := http.FileServer(http.Dir(rootDoc + "/asset"))

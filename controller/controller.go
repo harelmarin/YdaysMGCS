@@ -70,3 +70,6 @@ func PolesHandler(w http.ResponseWriter, r *http.Request) {
 
 	InitTemplate.Temp.ExecuteTemplate(w, "poles", nil)
 }
+
+func TreatmentMailHandler(w http.ResponseWriter, r *http.Request) {
+}

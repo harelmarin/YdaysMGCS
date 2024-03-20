@@ -1,21 +1,23 @@
+{{define "equipe"}}
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content ="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../asset/css/equipe.css" rel="stylesheet">
-    <link href="../asset/css/header.css" rel="stylesheet">
-    <link href="../asset/css/footer.css" rel="stylesheet">
-    <title> Notre équipe</title>
+    <link rel="stylesheet" href="/static/css/equipe.css" />
+    <link rel="stylesheet" href="/static/css/header.css" />
+    <link rel="stylesheet" href="/static/css/footer.css" />
+    <title> Accueil </title>
 </head>
 <body>
     <header class="header"> 
         <nav>
-           <a href="poles.html">NOS POLES</a>
-           <a href="equipe.html">NOTRE EQUIPE</a>
-           <a href="index.html"> <img src="../asset/img/Logo MGCS.png">  </a>
-           <a href="nosservices.html"> NOS SERVICES</a>
-           <a href="contact.html"> CONTACTS</a>
+           <a href="/poles">NOS POLES</a>
+           <a href="/equipe">NOTRE EQUIPE</a>
+           <a href="/index"> <img src="/static/img/Logo MGCS.png">  </a>
+           <a href="/services"> NOS SERVICES</a>
+           <a href="/contact"> CONTACTS</a>
         </nav>
     </header>
 <section>
@@ -24,11 +26,12 @@
         <h1>Fondateurs</h1>
     </div>
     <div class="link">
-        <a class="photoequipe" href="../templates/solo1.html"><img src="../asset/img/photo.png"></a>
-        <a class="photoequipe" href="../templates/solo2.html"><img src="../asset/img/photo.png"></a>
-        <a class="photoequipe" href="../templates/solo3.html"><img src="../asset/img/photo.png"></a>
-        <a class="photoequipe" href="../templates/solo4.html"><img src="../asset/img/photo.png"></a>
-        <a class="photoequipe" href="../templates/solo5.html"><img src="../asset/img/photo.png"></a>
+        <a class="photoequipe" href="/solo1"><img src="static/img/photo.png"></a>
+        <a class="photoequipe" href="/solo2"><img src="static/img/photo.png"></a>
+        <a class="photoequipe" href="/solo3"><img src="static/img/photo.png"></a>
+        <a class="photoequipe" href="/solo4"><img src="static/img/photo.png"></a>
+        <a class="photoequipe" href="/solo5"><img src="static/img/photo.png"></a>
+
     </div>
 </div>
 <div class="conteneurequipe2">
@@ -43,22 +46,22 @@
 
 
 </section>
+
 <footer class="footer">
     <div class="footer-container">
-     <a href="index.html"> <img src="../asset/img/Logo MGCS.png">  </a>
+     <a href="/index"> <img src="/static/img/Logo MGCS.png">  </a>
      <div class="footer-nav">
          <nav>
-     <a href="equipe.html">NOTRE EQUIPE</a>
-     <a href="nosservices.html"> NOS SERVICES</a>
-     <a href="contact.html"> CONTACTS</a>
+     <a href="/equipe">NOTRE EQUIPE</a>
+     <a href="/services"> NOS SERVICES</a>
+     <a href="/contact"> CONTACTS</a>
      </nav>
      <nav>
      <p>MGCS.CORPO@GMAIL.COM</p>
-     <img src="../asset/img/Logo Facebook.png">
-     <img src="../asset/img/Logo_Instagram.png">
+     <img src="/static/img/Logo Facebook.png">
+     <img src="/static/img/Logo_Instagram.png">
  </nav>
      </div>
  </div>
  </footer>
-</body>
-</html>
+{{end}}

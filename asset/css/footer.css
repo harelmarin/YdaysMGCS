@@ -16,6 +16,7 @@
     margin-left: 100px;
     width: 100%;
     flex-direction: column;
+    background-color: #241C1D;
     
 }
 
@@ -23,6 +24,7 @@
     margin-top: 20px;
     display: flex;
     align-items: center;
+    background-color: #241C1D;
 }
 
 .footer a{
@@ -46,6 +48,7 @@
     display: flex;
     justify-content: space-between;
     margin-right: 100px;
+    background-color: #241C1D;
 }
 
 .footer-nav img {

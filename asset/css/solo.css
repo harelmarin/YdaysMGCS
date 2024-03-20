@@ -56,14 +56,33 @@ a{
     background-color: rgba(36, 28, 29, 1);
 }
 
-.fleche {
+.flecheg {
     margin-top: 180px;
     margin-left: 20px;
     margin-right: 35px;
     width: 3%;
 }
 
-.flecheretour {
+.image-wrapper img.hover {
+    display: none;
+}
+
+.image-wrapper:hover img.normal {
+    display: none;
+}
+
+.image-wrapper:hover img.hover {
+    display: inline;
+}
+
+.fleched {
+    margin-top: 180px;
+    margin-left: 20px;
+    margin-right: 70px;
+    width: 3%;
+}
+
+.image-wrapper {
     margin-left: 20px;
 }
 
@@ -97,47 +116,6 @@ a{
     font-weight: 400;
     line-height: normal;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     width: 100%;

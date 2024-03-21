@@ -69,9 +69,11 @@ a{
 }
 .fleche {
     margin-top: 180px;
-    margin-left: 20px;
+    margin-left: 70px;
     margin-right: 35px;
     width: 3%;
+    display: flex;
+    justify-content: center;
 }
 
 .image-wrapper img.hover {

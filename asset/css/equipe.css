@@ -27,16 +27,15 @@ header {
 }
 
 .headerlogo {
-    width: 200px;
-    height: 88px;
     border-radius: 90px;
     background: #F2F4FF;    
     margin-right: 80px;
 }
 
 .photoequipe{
-    color: grey;
+
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .photogroupe{

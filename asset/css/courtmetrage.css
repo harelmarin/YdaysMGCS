@@ -36,3 +36,50 @@
     flex-direction: column;
     padding-left: 50px;
 }
+
+.box {
+    width: 1180px;
+    height: 671px;
+    background-color: rgba(247, 169, 65, 1);
+    border-radius: 10px;
+    margin-left: 100px;
+    }
+
+.carousel-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: none;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  display: block;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+}
+
+.prev {
+  left: 0;
+}

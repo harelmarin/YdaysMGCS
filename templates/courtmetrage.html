@@ -15,43 +15,58 @@
 <body>
     {{template "header.html" .}}
     <section>
-        <div class="slide1">
-            <a href="/poles">
+        <div class="carousel-container">
+            <div id="slide1" class="carousel-slide active">
+                <a href="/poles">
+                    <div class="image-wrapper">
+                        <img class="normal" src="/static/img/fleche.png">
+                        <img class="hover" src="/static/img/fleche-rouge.png">
+                    </div>
+                </a>
+                <h1>MGCS Court Métrage</h1>
+                <h3>Café noir et Cappuccino</h3>
+                <div class="box"></div>
+            </div>
+            <div id="slide2" class="carousel-slide">
+                <a href="/poles">
+                    <div class="image-wrapper">
+                        <img class="normal" src="/static/img/fleche.png">
+                        <img class="hover" src="/static/img/fleche-rouge.png">
+                    </div>
+                </a>
+                <h1>MGCS Court Métrage</h1>
+                <h3>Morale à découvert</h3>
+                <div class="box"></div>
+            </div>
+            <div id="slide3" class="carousel-slide">
+                <a href="/poles">
+                    <div class="image-wrapper">
+                        <img class="normal" src="/static/img/fleche.png">
+                        <img class="hover" src="/static/img/fleche-rouge.png">
+                    </div>
+                </a>
+                <h1>MGCS Court Métrage</h1>
+                <h3>Notre Première</h3>
+                <div class="box"></div>
+            </div>
+            <a class="prev" onclick="moveSlide(-1)">
                 <div class="image-wrapper">
-                    <img class="normal" src="/static/img/fleche.png">
-                    <img class="hover" src="/static/img/fleche-rouge.png">
+                    <img class="normal" src="/static/img/fleche-gauche.png">
+                    <img class="hover" src="/static/img/fleche-gauche-rouge.png">
                 </div>
             </a>
-            <h1>MGCS Court Métrage</h1>
-            <h3>Café noir et Cappuccino</h3>
-        </div>
-        <div class="slide2">
-            <a href="/poles">
+            <a class="next" onclick="moveSlide(1)">
                 <div class="image-wrapper">
-                    <img class="normal" src="/static/img/fleche.png">
-                    <img class="hover" src="/static/img/fleche-rouge.png">
+                    <img class="normal" src="/static/img/fleche-droite.png">
+                    <img class="hover" src="/static/img/fleche-droite-rouge.png">
                 </div>
             </a>
-            <h1>MGCS Court Métrage</h1>
-            <h3>Morale à découvert</h3>
         </div>
-        <div class="slide3">
-            <a href="/poles">
-                <div class="image-wrapper">
-                    <img class="normal" src="/static/img/fleche.png">
-                    <img class="hover" src="/static/img/fleche-rouge.png">
-                </div>
-            </a>
-            <h1>MGCS Court Métrage</h1>
-            <h3>Notre Première</h3>
-        </div>
-
-
-
-
+ 
 
 
     </section>
 
     {{template "footer.html" .}}
+    <script src="/static/js/courtmetrage.js"></script>
     {{end}}

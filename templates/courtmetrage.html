@@ -1,0 +1,57 @@
+{{define "courtmetrage"}}
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/courtmetrage.css" />
+    <link rel="stylesheet" href="/static/css/header.css" />
+    <link rel="stylesheet" href="/static/css/footer.css" />
+    <title> Court métrage </title>
+</head>
+
+<body>
+    {{template "header.html" .}}
+    <section>
+        <div class="slide1">
+            <a href="/poles">
+                <div class="image-wrapper">
+                    <img class="normal" src="/static/img/fleche.png">
+                    <img class="hover" src="/static/img/fleche-rouge.png">
+                </div>
+            </a>
+            <h1>MGCS Court Métrage</h1>
+            <h3>Café noir et Cappuccino</h3>
+        </div>
+        <div class="slide2">
+            <a href="/poles">
+                <div class="image-wrapper">
+                    <img class="normal" src="/static/img/fleche.png">
+                    <img class="hover" src="/static/img/fleche-rouge.png">
+                </div>
+            </a>
+            <h1>MGCS Court Métrage</h1>
+            <h3>Morale à découvert</h3>
+        </div>
+        <div class="slide3">
+            <a href="/poles">
+                <div class="image-wrapper">
+                    <img class="normal" src="/static/img/fleche.png">
+                    <img class="hover" src="/static/img/fleche-rouge.png">
+                </div>
+            </a>
+            <h1>MGCS Court Métrage</h1>
+            <h3>Notre Première</h3>
+        </div>
+
+
+
+
+
+
+    </section>
+
+    {{template "footer.html" .}}
+    {{end}}

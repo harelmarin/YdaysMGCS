@@ -71,5 +71,11 @@ func PolesHandler(w http.ResponseWriter, r *http.Request) {
 	InitTemplate.Temp.ExecuteTemplate(w, "poles", nil)
 }
 
+// Handler pour afficher les courts métrage du site
+func CourtmetrageHandler(w http.ResponseWriter, r *http.Request) {
+
+	InitTemplate.Temp.ExecuteTemplate(w, "courtmetrage", nil)
+}
+
 func TreatmentMailHandler(w http.ResponseWriter, r *http.Request) {
 }

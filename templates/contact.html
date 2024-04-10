@@ -28,7 +28,7 @@
     </div>
     <div class="second-rectangle">
         <h2> DITES BONJOUR ! </h2>
-        <form action="treatmentmail" method="post">
+        <form  method="post" onsubmit="sendEmail(); return false;">
 
         <input type="text" id="nom" name="nom" required placeholder="Nom" autocomplete="off">
         <input type="text" id="prenom" name="prenom" required placeholder="Prénom" autocomplete="off"> <br><br>
@@ -43,4 +43,5 @@
 
 
 {{template "footer.html" .}}
+<script src="/static/js/email.js"></script>
 {{end}}

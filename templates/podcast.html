@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/static/css/podcast.css" />
     <link rel="stylesheet" href="/static/css/header.css" />
     <link rel="stylesheet" href="/static/css/footer.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title> Accueil </title>
 </head>
 <body>
@@ -18,55 +19,102 @@
     <div class="image-wrapper">
     <img class="normal" src="/static/img/fleche.png">
     <img class="hover" src="/static/img/fleche-rouge.png">
-</div>
+    </div>
 </a>
-<h1> MGCS PODCAST </h1>
-<div class="podcast-rectangle-global">
-    <div class="rectangle-podcast-colonne">
-    <div class="podcast-rectangle"></div>
-    <h2> TITRE DU PODCAST</h2>
-</div>
-<div class="rectangle-podcast-colonne">
-    <div class="podcast-rectangle"></div>
-    <h2> TITRE DU PODCAST</h2>
-</div>
-<div class="rectangle-podcast-colonne">
-    <div class="podcast-rectangle"></div>
-    <h2> TITRE DU PODCAST</h2>
-</div>
-<div class="rectangle-podcast-colonne">
-    <div class="podcast-rectangle"></div>
-    <h2> TITRE DU PODCAST</h2>
-</div>
-<div class="rectangle-podcast-colonne">
-    <div class="podcast-rectangle"></div>
-    <h2> TITRE DU PODCAST</h2>
-</div>
-<div class="rectangle-podcast-colonne">
-    <div class="podcast-rectangle"></div>
-    <h2> TITRE DU PODCAST</h2>
-</div>
-<div class="rectangle-podcast-colonne">
-    <div class="podcast-rectangle"></div>
-    <h2> TITRE DU PODCAST</h2>
-</div>
-<div class="rectangle-podcast-colonne">
-    <div class="podcast-rectangle"></div>
-    <h2> TITRE DU PODCAST</h2>
-</div>
-<div class="rectangle-podcast-colonne">
-    <div class="podcast-rectangle"></div>
-    <h2> TITRE DU PODCAST</h2>
-</div>
-<div class="rectangle-podcast-colonne">
-    <div class="podcast-rectangle"></div>
-    <h2> TITRE DU PODCAST</h2>
-</div>
+    <h1> MGCS PODCASTS </h1>
+    <div class="container-row">
+        <h2> LE CLAP</h2> 
+        <div class="link-youtube">
+        <a href="https://www.youtube.com/@MGCSPRODUCTION" target="_blank"><img src="/static/img/Youtube.png"></a>
+        <a href="https://www.linkedin.com/company/mgcs-production/?originalSubdomain=fr" target="_blank"> <img src="/static/img/Linkedin.png"></a>
+        </div>
+    </div>
+    </div>
+    <section class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"> 
+                    <img src="/static/img/TestSwiper.webp">
+                    <h3> TITRE </h3>
+                </div>
+                <div class="swiper-slide"> 
+                    <img src="/static/img/TestSwiper.webp">
+                    <h3> TITRE </h3>
+                </div>
+                <div class="swiper-slide"> 
+                    <img src="/static/img/TestSwiper.webp">
+                    <h3> TITRE </h3>
+                </div>
+                <div class="swiper-slide"> 
+                    <img src="/static/img/TestSwiper.webp">
+                    <h3> TITRE </h3>
+                </div>
+                <div class="swiper-slide"> 
+                    <img src="/static/img/TestSwiper.webp">
+                    <h3> TITRE </h3>
+                </div>
+                <div class="swiper-slide"> 
+                    <img src="/static/img/TestSwiper.webp">
+                    <h3> TITRE </h3>
+                </div>
+                <div class="swiper-slide"> 
+                    <img src="/static/img/TestSwiper.webp">
+                    <h3> TITRE </h3>
+                </div>
+                <div class="swiper-slide"> 
+                    <img src="/static/img/TestSwiper.webp">
+                    <h3> TITRE </h3>
+                </div>
+            </div>
+  
+          
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+    </section>
+    <h2 class="boco"> LA BOCCO</h2>
+    <section class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"> 
+                <img src="/static/img/TestSwiper.webp">
+                <h3> TITRE </h3>
+            </div>
+            <div class="swiper-slide"> 
+                <img src="/static/img/TestSwiper.webp">
+                <h3> TITRE </h3>
+            </div>
+            <div class="swiper-slide"> 
+                <img src="/static/img/TestSwiper.webp">
+                <h3> TITRE </h3>
+            </div>
+            <div class="swiper-slide"> 
+                <img src="/static/img/TestSwiper.webp">
+                <h3> TITRE </h3>
+            </div>
+            <div class="swiper-slide"> 
+                <img src="/static/img/TestSwiper.webp">
+                <h3> TITRE </h3>
+            </div>
+            <div class="swiper-slide"> 
+                <img src="/static/img/TestSwiper.webp">
+                <h3> TITRE </h3>
+            </div>
+            <div class="swiper-slide"> 
+                <img src="/static/img/TestSwiper.webp">
+                <h3> TITRE </h3>
+            </div>
+            <div class="swiper-slide"> 
+                <img src="/static/img/TestSwiper.webp">
+                <h3> TITRE </h3>
+            </div>
+        </div>
 
-
+      
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+</section>
 </section>
 
-
 {{template "footer.html" .}}
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="/static/js/podcast_carrousel.js"></script>
 </body>
 {{end}}

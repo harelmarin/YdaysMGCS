@@ -77,5 +77,10 @@ func CourtmetrageHandler(w http.ResponseWriter, r *http.Request) {
 	InitTemplate.Temp.ExecuteTemplate(w, "courtmetrage", nil)
 }
 
+// Handler pour afficher les courts métrage du site
+func ClipHandler(w http.ResponseWriter, r *http.Request) {
+
+	InitTemplate.Temp.ExecuteTemplate(w, "clip", nil)
+}
 func TreatmentMailHandler(w http.ResponseWriter, r *http.Request) {
 }

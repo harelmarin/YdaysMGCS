@@ -5,13 +5,11 @@ const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
     centeredSlides: true,
-  
-    // Pagination avec les points
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
+    // Scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+      hide: true,
     },
-  
     // Flèches suivantes et précédentes
     navigation: {
       nextEl: '.swiper-button-next',

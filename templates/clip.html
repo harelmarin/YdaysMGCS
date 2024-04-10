@@ -1,0 +1,58 @@
+{{define "clip"}}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content ="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/clip.css" />
+    <link rel="stylesheet" href="/static/css/header.css" />
+    <link rel="stylesheet" href="/static/css/footer.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title> Accueil </title>
+</head>
+<body>
+    {{template "header.html" .}}
+<section class="nospodcast">
+    <div class="nospodcast-rectangle">
+<a href="/poles">        
+    <div class="image-wrapper">
+    <img class="normal" src="/static/img/fleche.png">
+    <img class="hover" src="/static/img/fleche-rouge.png">
+    </div>
+</a>
+    <h1> MGCS CLIP</h1>
+   
+    </div>
+    <section class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"> 
+                   <a href="https://www.youtube.com/watch?v=Czv8cn3ZGGk" target="_blank"> <img src="/static/img/Missan.jpg"> </a>
+                    <h3> 2VLive#1 - Missan </h3>
+                </div>
+                <div class="swiper-slide"> 
+                    <a href="https://www.youtube.com/watch?v=mmpO_jwMGx0" target="_blank"> <img src="/static/img/Pichichi-Missan.jpg"></a>
+                    <h3> Pichichi - Missan </h3>
+                </div>
+                <div class="swiper-slide"> 
+                    <a href="https://www.youtube.com/watch?v=832ATi9Thqk" target="_blank"> <img src="/static/img/Tout_Droit-Missan.jpg"></a>
+                    <h3> Tout Droit - Missan</h3>
+                </div>
+                <div class="swiper-slide"> 
+                    <a href="https://www.youtube.com/watch?v=ABpuBcdmM5g" target="_blank"> <img src="/static/img/Va_Bene-Missan.jpg"></a>
+                    <h3> Va Bene - Missan</h3>
+                </div>
+            </div>
+  
+          
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+    </section>
+</section>
+
+{{template "footer.html" .}}
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="/static/js/podcast_carrousel.js"></script>
+</body>
+{{end}}

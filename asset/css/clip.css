@@ -8,7 +8,6 @@ body {
 }
 
 .nospodcast {
-    
     display: flex;
     flex-direction: column;
 }
@@ -65,7 +64,7 @@ body {
 }
 
 .image-wrapper {
-    width: 10px;
+    width: 50px;
 }
 .image-wrapper img.hover {
     display: none;
@@ -163,3 +162,22 @@ h3 {
   .swiper-scrollbar {
     display: none;
   }
+
+
+@media only screen and (max-width: 1300px) {
+    .swiper img {
+      width: 300px;
+      height: 150px;
+      border-radius: 10px;
+  }
+}
+  
+@media only screen and (max-width: 950px) {
+  .swiper img {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+}
+

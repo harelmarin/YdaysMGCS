@@ -1,6 +1,6 @@
 .polesrectangle {
     width: 100%;
-    height: 861px;
+    height: 100%;
     background-color: #241C1D;
     font-family: Poppins;
 }
@@ -57,4 +57,37 @@
     color: #F2F4FF;
     font-size: 50px;
     font-weight: 400;
+}
+
+@media only screen and (max-width: 1000px) {
+    .polesdiffrectangle {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .polespodcast {
+        background: #F6B2B7;
+        width: 70%;
+        height: 445px;
+        color: #F2F4FF;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .polescourt {
+        background: #F7A941;
+        width: 70%;
+        height: 445px;
+        color: #F2F4FF;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .polesclip {
+        background: #E5271E;
+        width: 70%;
+        height: 445px;
+        color: #F2F4FF;
+        font-size: 20px;
+        font-weight: 400;
+    }
 }

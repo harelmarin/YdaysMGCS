@@ -15,4 +15,15 @@ const swiper = new Swiper('.swiper', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    breakpoints: {
+      300: {
+        slidesPerView: 1,
+      },
+      600: {
+        slidesPerView: 2,
+    },
+    800: {
+      slidesPerView: 3,
+  },
+}
 });

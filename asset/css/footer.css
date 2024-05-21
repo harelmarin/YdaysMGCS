@@ -2,19 +2,19 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 .footer {
+    width: 100%;
     background-color: #241C1D;
     height: 276px;
-    width: 100%;
     display: flex;
     align-items:center;
 }
 
 .footer-container {
-    margin-left: 100px;
-    width: 100%;
+    padding-left: 100px;
     flex-direction: column;
     background-color: #241C1D;
     
@@ -48,7 +48,6 @@
 .footer-nav {
     display: flex;
     justify-content: space-between;
-    margin-right: 100px;
     background-color: #241C1D;
 }
 
@@ -57,4 +56,37 @@
     width: 40px;
     margin-bottom: 20px;
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1050px) {
+    .footer a {
+        font-size: 12px;
+    }
+
+    .footer p {
+        font-size: 15px;
+    }
+
+    .footer-logo {
+        width: 110px;
+        height: 22px;
+    }
+    .footer-nav {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .footer-container {
+        padding-left: 20px;
+    }
+    .footer a {
+        font-size: 9px;
+    }
+    .footer p {
+        margin-left: 40px;
+        font-size: 11px;
+    }
+    
 }

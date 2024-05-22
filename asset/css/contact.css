@@ -1,7 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
 .rectangle-contact-global {
     background-color: rgba(36, 28, 29, 1);
     color: #F6F9ED;
     display: flex;
+    height: 500px;
 }
 
 .first-rectangle {
@@ -70,6 +78,9 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+.image-wrapper {
+    width: 50px;
+}
 .image-wrapper img.hover {
     display: none;
 }

@@ -14,7 +14,7 @@
 
 .photogroupe{
     width: 1216px;
-    height: 445px;
+    height: 654px;
     flex-shrink: 0;
     border-radius: 10px;
     background: #626262;
@@ -142,18 +142,28 @@ footer {
 
 .Rubriques {
     display: flex;
-}
-@media only screen and (max-width: 1260px) {
+}    
+@media only screen and (max-width: 1200px) {
+        .link {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .conteneurequipe2 p {
+            margin-top: 30px;
+            margin-bottom: 40px;  
+    }
+    .photoequipe{
+        margin-top: 50px;
+    }
     .photogroupe{
-        width: 800px;
-        height: 300px;
-        border-radius: 10px;
-        background: #626262;
-        margin-bottom: 20px;
-        
+        width: 1000px;
     }
-    
-    }
+}
+
+
 @media only screen and (max-width: 825px) {
 .link {
     display: flex;
@@ -161,18 +171,16 @@ footer {
     align-items: center;
     justify-content: space-evenly;
 }
-.fondateurs {
-    font-family: 'Poppins', sans-serif;
-    color: #F2F4FF;
-    font-family: "Integral CF";
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-left: 76px;
-    margin-top: 86px;
-    margin-bottom: 48px;
-
+.photoequipe{
+    margin-top: 50px;
+}
+.fondateurs h1 {
+    font-size: 40px;
+}
+.conteneurequipe2 p {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 15px;
 }
 
 }

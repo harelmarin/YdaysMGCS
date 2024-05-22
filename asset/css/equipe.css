@@ -158,8 +158,9 @@ footer {
     .photoequipe{
         margin-top: 50px;
     }
-    .photogroupe{
+    .photogroupe img{
         width: 1000px;
+        background-image: url(../img/PHOTOSTAFFMASTER_1000.png);
     }
 }
 

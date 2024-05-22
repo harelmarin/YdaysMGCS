@@ -55,7 +55,9 @@ header {
 a{
     background-color: rgba(36, 28, 29, 1);
 }
-
+.image-wrapper {
+    width: 50px;
+}
 .image-wrapper img.hover {
     display: none;
 }

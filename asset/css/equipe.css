@@ -5,9 +5,11 @@
     overflow-x: hidden;
 }
 
+body {
+    background-color: #241C1D;;
+}
 
 .photoequipe{
-
     border-radius: 10px;
     object-fit: cover;
 }
@@ -17,11 +19,14 @@
     height: 654px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: #626262;
+    background-color: #241C1D;
     margin-bottom: 20px;
-    
 }
 
+.photogrp {
+    width: 1216px;
+    height: 654px;
+}
 .conteneurequipe1 {
     display: flex;
     flex-direction: column;
@@ -30,8 +35,7 @@
 .conteneurequipe2{
     display: flex;
     flex-direction: column;
-    margin-top: 263px;
-    display: flex;
+    margin-top: 263px;  
     justify-content: center;
     align-items: center;
 }
@@ -71,26 +75,7 @@ p{
     line-height: normal;
 }
 
-footer {
-    width: 100%;
-    height: 276px;
-    flex-shrink: 0;
-    background: #222;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-    border-color: rgba(242, 244, 255, 0.60);
-}
 
-.footera{
-    text-decoration: none;
-    color: rgba(242, 244, 255, 0.60);
-    padding-left: 30px;
-    display: flex;
-   
-}
 
 .logoreseaux {
     width: 38px;
@@ -159,8 +144,7 @@ footer {
         margin-top: 50px;
     }
     .photogroupe img{
-        width: 1000px;
-        background-image: url(../img/PHOTOSTAFFMASTER_1000.png);
+        
     }
 }
 

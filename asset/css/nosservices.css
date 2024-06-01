@@ -1,5 +1,6 @@
 .nosservices {
     background-color: rgba(36, 28, 29, 1);
+    height: 750px;
 }
 
 .nosservices h1 {
@@ -38,4 +39,21 @@
     flex-direction: row;
     justify-content: space-around;
     color: #F2F4FF;
+}
+
+@media only screen and (max-width: 950px) {
+    .rectangle-service-row {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .nosservices {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .rectangle-service {
+       margin-top: 30px;
+       margin-bottom: 30px;
+    }
 }

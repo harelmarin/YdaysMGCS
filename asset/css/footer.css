@@ -21,6 +21,7 @@
 }
 
 .footer nav{
+    width: 100%;
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -47,6 +48,7 @@
 }
 
 .footer-nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: #241C1D;
@@ -86,8 +88,8 @@
         font-size: 9px;
     }
     .footer p {
-        margin-left: 40px;
-        font-size: 11px;
+        margin-left: 5px;
+        font-size: 9px;
     }
     
 }

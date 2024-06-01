@@ -1,4 +1,9 @@
+body {
+    background-color: rgba(36, 28, 29, 1);
+}
+
 .nosservices {
+    margin-top: 30px;
     background-color: rgba(36, 28, 29, 1);
     height: 750px;
 }
@@ -34,6 +39,7 @@
 }
 
 .rectangle-service-row {
+    width: 100%;
     margin-top: 50px;
     display: flex;
     flex-direction: row;

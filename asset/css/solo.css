@@ -1,41 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: rgba(36, 28, 29, 1);
+
+
+body {
+    background-color: #241C1D;
 }
 
-header {
-    width: 100%;
-    height: 160px;
-    background-color: rgba(36, 28, 29, 1);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.headernav {
-    margin-left: 80px;
-}
-.headerli {
-    display:inline-block;
-    list-style-type: none;
-}
-.headera {
-    text-decoration: none;
-    color: #F2F4FF;
-    font-size: 17px;
-    font-weight: 500;
-    margin-right: 24px;
-}
-
-.headerlogo {
-    width: 200px;
-    height: 88px;
-    border-radius: 90px;
-    background: #F2F4FF;    
-    margin-right: 80px;
-}
 
 .conteneur {
     display: flex;
@@ -43,6 +11,8 @@ header {
     background-color: rgba(36, 28, 29, 1);
     justify-content: space-between;
     margin-bottom: 200px;
+    width: 100%;
+    height: 100%;
 }
 
 .text {
@@ -50,6 +20,9 @@ header {
     flex-direction: column;
     background-color: rgba(36, 28, 29, 1);
     justify-content: center;
+    width: 70vw;
+    height: 600px;
+    margin-left: 50px;
 }
 
 a{
@@ -57,6 +30,9 @@ a{
 }
 .image-wrapper {
     width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right:50px;
 }
 .image-wrapper img.hover {
     display: none;
@@ -90,11 +66,7 @@ a{
     display: inline;
 }
 
-.image-wrapper {
-    margin-left: 20px;
-}
-
-.nom{
+.text h2 {
     color: #F6F9ED;
     font-family: "Integral CF";
     font-size: 50px;
@@ -103,7 +75,7 @@ a{
     line-height: normal;
 }
 
-.surnom{
+.text h3 {
     color: #F6F9ED;
     font-family: Paralucent-Medium;
     font-size: 17px;
@@ -111,11 +83,11 @@ a{
     font-weight: 400;
     line-height: normal;
     margin-bottom: 20px;
+
 }
 
-.descriptif{
-    width: 654px;
-    height: 144px;
+
+.text p {
     flex-shrink: 0;
     color: #626262;
     font-family: Paralucent-Medium;
@@ -125,41 +97,7 @@ a{
     line-height: normal;
 }
 
-footer {
-    width: 100%;
-    height: 276px;
-    flex-shrink: 0;
-    background: #222;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-    border-color: rgba(242, 244, 255, 0.60);
-}
 
-.footera{
-    text-decoration: none;
-    color: rgba(242, 244, 255, 0.60);
-    padding-left: 30px;
-    display: flex;
-}
-
-.logoreseaux {
-    width: 38px;
-    height: 38px;
-}
-
-.MGCS {
-    display: inline;
-    font-family: Poppins;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    border-right: 2px solid rgba(242, 244, 255, 0.60);
-    width: 215.55px;
-}
 
 
 .equipe {
@@ -189,13 +127,39 @@ footer {
     flex-shrink: 0;
 }
 
-.Mail {
-    color: rgba(242, 244, 255, 0.60)
+
+@media only screen and (max-width: 900px) {
+
+   .conteneur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+   }
+
+   .text {
+    text-align: center;
+    margin-left: 0px;
+   }
+   .fleche {
+    margin-top: 30px;
+     margin-bottom: 60px;
 }
 
-.Rubriques {
-    display: flex;
 }
+
+@media only screen and (max-width: 450px) {
+    .photoequipe {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin-right: 0px;
+    }
+ }
+ 
+
 
 
 

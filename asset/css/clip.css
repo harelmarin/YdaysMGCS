@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #241C1D;
+    background-color: #010101;
 }
 
 .nospodcast {
@@ -13,6 +13,7 @@ body {
 }
 
 .nospodcast h1 {
+  font-family: 'Bold';
     color: #F2F4FF;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -21,6 +22,7 @@ body {
 }
 
 .nospodcast h2 {
+  font-family: 'Medium';
     color: #F2F4FF;
     font-size: 17px;
     margin-top: 10px;

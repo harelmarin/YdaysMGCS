@@ -9,64 +9,50 @@
     <link rel="stylesheet" href="/static/css/courtmetrage.css" />
     <link rel="stylesheet" href="/static/css/header.css" />
     <link rel="stylesheet" href="/static/css/footer.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title> Court métrage </title>
 </head>
 
 <body>
     {{template "header.html" .}}
-    <section>
-        <div class="carousel-container">
-            <div id="slide1" class="carousel-slide active">
+
+        <section class="container">
                 <a href="/poles">
                     <div class="image-wrapper">
                         <img class="normal" src="/static/img/fleche.png">
                         <img class="hover" src="/static/img/fleche-rouge.png">
                     </div>
-                </a>
-                <h1>MGCS Court Métrage</h1>
-                <h3>Café noir et Cappuccino</h3>
-                <div class="box"></div>
-            </div>
-            <div id="slide2" class="carousel-slide">
-                <a href="/poles">
-                    <div class="image-wrapper">
-                        <img class="normal" src="/static/img/fleche.png">
-                        <img class="hover" src="/static/img/fleche-rouge.png">
+             </a>
+
+             <section class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"> 
+                        <h2> MGCS COURT METRAGE </h2>
+                        <h3> Café noir et Cappuccino </h3>
+                        <img src="/static/img/TestSwiper.webp">
                     </div>
-                </a>
-                <h1>MGCS Court Métrage</h1>
-                <h3>Morale à découvert</h3>
-                <div class="box"></div>
-            </div>
-            <div id="slide3" class="carousel-slide">
-                <a href="/poles">
-                    <div class="image-wrapper">
-                        <img class="normal" src="/static/img/fleche.png">
-                        <img class="hover" src="/static/img/fleche-rouge.png">
+                    <div class="swiper-slide"> 
+                        <h2> MGCS COURT METRAGE </h2>
+                        <h3> Morale à découvert </h3>
+                        <img src="/static/img/TestSwiper.webp">
                     </div>
-                </a>
-                <h1>MGCS Court Métrage</h1>
-                <h3>Notre Première</h3>
-                <div class="box"></div>
+                    <div class="swiper-slide"> 
+                        <h2> MGCS COURT METRAGE </h2>
+                        <h3> Notre Première </h3>
+                        <img src="/static/img/TestSwiper.webp">
+                    </div>
+      
             </div>
-            <a class="prev" onclick="moveSlide(-1)">
-                <div class="image-wrapper">
-                    <img class="normal" src="/static/img/fleche-gauche.png">
-                    <img class="hover" src="/static/img/fleche-gauche-rouge.png">
-                </div>
-            </a>
-            <a class="next" onclick="moveSlide(1)">
-                <div class="image-wrapper">
-                    <img class="normal" src="/static/img/fleche-droite.png">
-                    <img class="hover" src="/static/img/fleche-droite-rouge.png">
-                </div>
-            </a>
-        </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        </section>
  
 
 
     </section>
 
     {{template "footer.html" .}}
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/static/js/courtmetrage.js"></script>
+  
     {{end}}

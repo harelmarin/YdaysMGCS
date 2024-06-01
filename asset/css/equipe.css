@@ -1,12 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+
     overflow-x: hidden;
 }
 
 body {
-    background-color: #241C1D;;
+    background-color: #010101;
 }
 
 .photoequipe{
@@ -19,7 +19,7 @@ body {
     height: 654px;
     flex-shrink: 0;
     border-radius: 10px;
-    background-color: #241C1D;
+    background-color: #010101;
     margin-bottom: 20px;
 }
 
@@ -47,14 +47,13 @@ body {
 }
 
 section{
-    background-color: rgba(36, 28, 29, 1);
+    background-color: #010101;
 }
 
 
 .fondateurs {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bold';
     color: #F2F4FF;
-    font-family: "Integral CF";
     font-size: 64px;
     font-style: normal;
     font-weight: 500;
@@ -68,7 +67,7 @@ section{
 p{
     color: #F6F9ED;
     text-align: center;
-    font-family: Paralucent-Medium;
+    font-family: 'Medium';
     font-size: 22px;
     font-style: normal;
     font-weight: 400;

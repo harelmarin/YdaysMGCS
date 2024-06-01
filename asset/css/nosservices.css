@@ -1,14 +1,15 @@
 body {
-    background-color: rgba(36, 28, 29, 1);
+    background-color: #010101;
 }
 
 .nosservices {
     margin-top: 30px;
-    background-color: rgba(36, 28, 29, 1);
+    background-color: #010101;
     height: 750px;
 }
 
 .nosservices h1 {
+    font-family: 'Bold';
     color: #F2F4FF;;
     text-align: center;
     font-weight: 500;
@@ -16,12 +17,14 @@ body {
 }
 
 .nosservices h2 {
+    font-family: 'Bold';
     color: #F2F4FF;
     font-size: 36px;
     font-weight: 400;
     text-align: center;
 }
 .nosservices h3 {
+    font-family: 'Medium';
     text-align: center;
     margin-bottom: 15px;
 }

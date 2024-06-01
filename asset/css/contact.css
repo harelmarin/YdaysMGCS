@@ -1,16 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
 
 body {
-    background-color: #241C1D;
+    background-color: #010101;
 }
 
 .rectangle-contact-global {
-    background-color: rgba(36, 28, 29, 1);
+    background-color: #010101;
     color: #F6F9ED;
     display: flex;
     height: 700px;
@@ -23,6 +22,7 @@ body {
 }
 
 .first-rectangle h1 {
+    font-family: 'Bold';
     font-weight: 800;
     font-size: 40px;
     margin-top: 100px;
@@ -30,19 +30,22 @@ body {
 }
 
 .first-rectangle h3 {
+    font-family: 'Medium';
     font-weight: 500;
     font-size: 22px;
     margin-top: 20px;
-    font-family: Poppins;
+   
 }
 
 .second-rectangle h2 {
+    font-family: 'Bold';
    font-weight: 800;
    font-size: 40px;
    text-align: center;
 }
 
 .first-rectangle h4 {
+    font-family: 'Medium';
     font-weight: 400;
     font-size: 17px;
     color: #626262;

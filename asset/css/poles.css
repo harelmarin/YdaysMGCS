@@ -1,19 +1,24 @@
 body {
-    background-color: #241C1D;
+    background-color: #010101;
 }
 .polesrectangle {
     width: 100%;
     height: 100%;
-    background-color: #241C1D;
-    font-family: Poppins;
+    background-color: #010101;
 }
 
+.polesrectangle h1 {
+    font-family: 'Bold';
+}
+
+.polesrectangle h2 {
+    font-family: 'Medium';
+}
 .polesMGCS {
     color: #F2F4FF;
     font-size: 64px;
     font-weight: 500px;
     text-align: center;
-    line-height: normal;
     padding-top: 23px;
 }
 
@@ -28,6 +33,7 @@ body {
 .polesdiffrectangle {
     margin-top: 80px;
     display: flex;
+    font-family: 'Bold';
 }
 
 .polesdiffrectangle a {

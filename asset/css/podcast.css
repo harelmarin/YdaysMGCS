@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #241C1D;
+  background-color: #010101;
 }
 
 .nospodcast {
@@ -14,6 +14,7 @@ body {
 }
 
 .nospodcast h1 {
+  font-family: 'Bold';
     color: #F2F4FF;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -22,6 +23,7 @@ body {
 }
 
 .nospodcast h2 {
+  font-family: 'Bold';
     color: #F2F4FF;
     font-size: 17px;
     margin-top: 10px;
@@ -33,7 +35,7 @@ body {
     width: 350px;
     height: 182px;
     border-radius: 10px;
-    background-color: #464646
+    background-color: #010101;
 }
 .podcast-rectangle-global {
    display: flex;
@@ -48,11 +50,13 @@ body {
 }
 
 .nospodcast-rectangle  h1 {
+  font-family: 'Bold';
     color: #F2F4FF;
     font-size: 50px;
 }
 
 .nospodcast-rectangle  h2 {
+  font-family: 'Bold';
     color: #F2F4FF;
     font-size: 22px;
 }
@@ -86,6 +90,7 @@ body {
 }
 
 h3 {
+  font-family: 'Medium';
     margin-top: 5px;
     color: #F2F4FF;
     font-size: 22px;
